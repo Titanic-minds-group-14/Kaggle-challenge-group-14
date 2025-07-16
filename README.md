@@ -10,4 +10,4 @@ pip install -r requirements.txt
 
 ## 📊 Dataset Overview
 ### Key Features:
-
+- **Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
