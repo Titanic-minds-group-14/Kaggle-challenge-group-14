@@ -6,5 +6,6 @@ The Spaceship Titanic competition challenges you to predict whether a passenger 
 
 2.Install requirements:
 
+pip install -r requirements.txt
 
 ## 📊 Dataset Overview
