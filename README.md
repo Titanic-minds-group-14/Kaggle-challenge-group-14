@@ -2,6 +2,9 @@
 
 Spaceship Titanic - Predicting Dimensional Transport
 
-The Spaceship Titanic competition challenges you to predict whether a passenger was transported to an alternate dimension during the ship’s collision with a spacetime anomaly. Using detailed personal and transactional records, this project applies the  to build a robust machine learning solution.
+The Spaceship Titanic competition challenges you to predict whether a passenger was transported to an alternate dimension during the ship’s collision with a spacetime anomaly. Using detailed personal and transactional records, this project applies the to build a robust machine learning solution.
 
 2.Install requirements:
+
+
+## 📊 Dataset Overview
