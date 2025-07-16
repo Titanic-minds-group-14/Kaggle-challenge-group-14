@@ -9,3 +9,5 @@ The Spaceship Titanic competition challenges you to predict whether a passenger 
 pip install -r requirements.txt
 
 ## 📊 Dataset Overview
+### Key Features:
+- **Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
