@@ -11,11 +11,5 @@ pip install -r requirements.txt
  Dataset Overview
  Key Features:
 **Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
-Numerical Columns: 
-  - Age
-  - RoomService
-  - FoodCourt
-  - ShoppingMall
-  - Spa
-  - VRDeck
+**Numerical Columns**: Age, RoomService, FoodCourt ,ShoppingMall , Spa , VRDeck
   
