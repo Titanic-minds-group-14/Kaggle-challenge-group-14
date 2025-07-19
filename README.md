@@ -34,3 +34,13 @@ pip install -r requirements.txt
   - `Is_Alone`: Boolean indicating solo traveler based on group
 
 ---
+## 📊 Exploratory Data Analysis (EDA)
+
+### ✅ 1. Univariate Analysis
+
+- Distribution of individual numerical features using:
+  - Histogram with KDE overlays (using Plotly)
+  - Box plots (to detect outliers)
+
+- Categorical distributions:
+  - Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`, etc.
