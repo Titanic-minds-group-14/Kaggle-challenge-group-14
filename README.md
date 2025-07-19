@@ -13,3 +13,10 @@ pip install -r requirements.txt
 **Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
 **Numerical Columns**: Age, RoomService, FoodCourt ,ShoppingMall , Spa , VRDeck
   
+## 🔍 Project Overview
+
+### ✅ Goals:
+1. Clean and preprocess the raw data.
+2. Perform comprehensive Exploratory Data Analysis (EDA).
+3. Engineer meaningful features.
+4. Prepare data for modeling (splitting, encoding, scaling).
