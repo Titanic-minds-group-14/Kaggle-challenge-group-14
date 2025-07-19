@@ -20,3 +20,17 @@ pip install -r requirements.txt
 2. Perform comprehensive Exploratory Data Analysis (EDA).
 3. Engineer meaningful features.
 4. Prepare data for modeling (splitting, encoding, scaling).
+---
+
+## 🧹 Data Cleaning
+
+- **Missing Values** handled through:
+  - Group-wise imputations (e.g., median `Age` by group).
+  - Domain-based assumptions (e.g., inferring `CryoSleep` from zero expenditure).
+- **Cabin Splitting** into:
+  - `Cabin_Deck`, `Cabin_Number`, `Cabin_Side`
+- **Engineered Features**:
+  - `Total_Spending`: Sum of all expenditure columns
+  - `Is_Alone`: Boolean indicating solo traveler based on group
+
+---
