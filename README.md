@@ -44,3 +44,11 @@ pip install -r requirements.txt
 
 - Categorical distributions:
   - Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`, etc.
+
+### ✅ 2. Bivariate Analysis
+
+- Relationship between `Transported` and:
+  - Numerical features via **box + violin plots**
+  - Categorical features via **stacked bar charts**
+  - KDE overlays (comparison of distributions for `Transported` = 0 vs 1)
+  - Grouped bar plots of mean values by class
