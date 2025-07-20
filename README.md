@@ -1,4 +1,4 @@
-# Kaggle-challenge-group-14
+# Spaceship Titanic - Predicting Dimensional Transport Kaggle-challenge-group-14
 
 Spaceship Titanic - Predicting Dimensional Transport
 
