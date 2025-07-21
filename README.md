@@ -25,13 +25,13 @@ pip install -r requirements.txt
 ##  Data Cleaning
 
 - **Missing Values** handled through:
-  - Group-wise imputations (e.g., median `Age` by group).
-  - Domain-based assumptions (e.g., inferring `CryoSleep` from zero expenditure).
+   Group-wise imputations (e.g., median `Age` by group).
+   Domain-based assumptions (e.g., inferring `CryoSleep` from zero expenditure).
 - **Cabin Splitting** into:
-  - `Cabin_Deck`, `Cabin_Number`, `Cabin_Side`
+   `Cabin_Deck`, `Cabin_Number`, `Cabin_Side`
 - **Engineered Features**:
-  - `Total_Spending`: Sum of all expenditure columns
-  - `Is_Alone`: Boolean indicating solo traveler based on group
+   `Total_Spending`: Sum of all expenditure columns
+   `Is_Alone`: Boolean indicating solo traveler based on group
 
 ---
 ##  Exploratory Data Analysis (EDA)
