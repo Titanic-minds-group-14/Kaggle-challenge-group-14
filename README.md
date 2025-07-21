@@ -15,7 +15,7 @@ pip install -r requirements.txt
   
 ##  Project Overview
 
-### ✅ Goals:
+###  Goals:
 1. Clean and preprocess the raw data.
 2. Perform comprehensive Exploratory Data Analysis (EDA).
 3. Engineer meaningful features.
