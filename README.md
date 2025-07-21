@@ -22,7 +22,7 @@ pip install -r requirements.txt
 4. Prepare data for modeling (splitting, encoding, scaling).
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 - **Missing Values** handled through:
   - Group-wise imputations (e.g., median `Age` by group).
@@ -34,9 +34,9 @@ pip install -r requirements.txt
   - `Is_Alone`: Boolean indicating solo traveler based on group
 
 ---
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
-### ✅ 1. Univariate Analysis
+###  1. Univariate Analysis
 
 - Distribution of individual numerical features using:
   - Histogram with KDE overlays (using Plotly)
