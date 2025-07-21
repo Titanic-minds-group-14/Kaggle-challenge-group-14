@@ -2,7 +2,8 @@
 
 Spaceship Titanic - Predicting Dimensional Transport
 
-The Spaceship Titanic competition challenges you to predict whether a passenger was transported to an alternate dimension during the ship’s collision with a spacetime anomaly. Using detailed personal and transactional records, this project applies the to build a robust machine learning solution.
+The Spaceship Titanic competition hosted on Kaggle tasks participants with predicting whether passengers aboard a futuristic interstellar cruise were transported to an alternate dimension after a spacetime anomaly.
+This project builds a robust machine learning pipeline that includes comprehensive EDA, feature engineering, model building, and evaluation using a combination of statistical methods and machine learning techniques.
 
 2.Install requirements:
 
