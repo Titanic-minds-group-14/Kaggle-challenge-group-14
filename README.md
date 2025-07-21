@@ -13,7 +13,7 @@ pip install -r requirements.txt
 **Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
 **Numerical Columns**: Age, RoomService, FoodCourt ,ShoppingMall , Spa , VRDeck
   
-## 🔍 Project Overview
+##  Project Overview
 
 ### ✅ Goals:
 1. Clean and preprocess the raw data.
