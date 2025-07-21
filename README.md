@@ -9,10 +9,22 @@ This project builds a robust machine learning pipeline that includes comprehensi
 
 pip install -r requirements.txt
 
- Dataset Overview
- Key Features:
-**Categorical:** `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`
-**Numerical Columns**: Age, RoomService, FoodCourt ,ShoppingMall , Spa , VRDeck
+## Dataset Overview
+
+The dataset contains personal and spending data for thousands of passengers. The key features include:
+
+Categorical Features:
+
+HomePlanet, CryoSleep, Cabin, Destination, VIP
+
+Numerical Features:
+
+Age, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
+
+Target Column:
+
+Transported: Boolean indicating if the passenger was transported to another dimension
+
   
 ##  Project Overview
 
@@ -37,7 +49,7 @@ pip install -r requirements.txt
 ---
 ##  Exploratory Data Analysis (EDA)
 
-###  1. Univariate Analysis
+### 1. Univariate Analysis
 
 - Distribution of individual numerical features using:
   - Histogram with KDE overlays (using Plotly)
@@ -46,7 +58,7 @@ pip install -r requirements.txt
 - Categorical distributions:
   - Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`, etc.
 
-### ✅ 2. Bivariate Analysis
+### 2. Bivariate Analysis
 
 - Relationship between `Transported` and:
   - Numerical features via **box + violin plots**
