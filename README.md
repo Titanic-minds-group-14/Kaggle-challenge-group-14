@@ -58,7 +58,7 @@ Is_Alone: Indicates if a passenger traveled without family/group
 ---
 ##  Exploratory Data Analysis (EDA)
 
-### 1. Univariate Analysis
+## 1. Univariate Analysis
 
 Numerical Features
 
@@ -79,6 +79,4 @@ KDE overlays comparing Transported classes
 
 Target vs Categorical Features
 
-Grouped bar plots and normalized stacked bar charts
 
-Class-conditional means
