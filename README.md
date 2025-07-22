@@ -60,12 +60,15 @@ Is_Alone: Indicates if a passenger traveled without family/group
 
 ### 1. Univariate Analysis
 
-- Distribution of individual numerical features using:
-  - Histogram with KDE overlays (using Plotly)
-  - Box plots (to detect outliers)
+Numerical Features
 
-- Categorical distributions:
-  - Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`, etc.
+Histograms + KDE for distribution
+
+Boxplots to detect outliers and spread
+
+Categorical Features
+
+Count plots for key columns like HomePlanet, Destination, Cabin_Deck, etc.
 
 ### 2. Bivariate Analysis
 
