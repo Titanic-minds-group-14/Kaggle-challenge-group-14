@@ -71,10 +71,14 @@ Categorical Features
 Count plots for key columns like HomePlanet, Destination, Cabin_Deck, etc.
 
 ### 2. Bivariate Analysis
+Target vs Numerical Features
 
-- Relationship between `Transported` and:
-  - Numerical features via **box + violin plots**
-  - Categorical features via **stacked bar charts**
-  - KDE overlays (comparison of distributions for `Transported` = 0 vs 1)
-  - Grouped bar plots of mean values by class
-  - grouped bar input values by class
+Box and violin plots
+
+KDE overlays comparing Transported classes
+
+Target vs Categorical Features
+
+Grouped bar plots and normalized stacked bar charts
+
+Class-conditional means
