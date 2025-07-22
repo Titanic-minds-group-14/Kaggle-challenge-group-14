@@ -37,14 +37,23 @@ Transported: Boolean indicating if the passenger was transported to another dime
 
 ##  Data Cleaning
 
-- **Missing Values** handled through:
-   Group-wise imputations (e.g., median `Age` by group).
-   Domain-based assumptions (e.g., inferring `CryoSleep` from zero expenditure).
-- **Cabin Splitting** into:
-   `Cabin_Deck`, `Cabin_Number`, `Cabin_Side`
-- **Engineered Features**:
-   `Total_Spending`: Sum of all expenditure columns
-   `Is_Alone`: Boolean indicating solo traveler based on group
+Handling Missing Values:
+
+Median imputation for Age based on passenger group
+
+Zero-spending inference to populate CryoSleep
+
+Mode or most frequent values for categorical variables
+
+Cabin Feature Engineering:
+
+Split the Cabin into Cabin_Deck, Cabin_Number, and Cabin_Side for better interpretability
+
+Additional Engineered Features:
+
+Total_Spending: Combined cost of all onboard services
+
+Is_Alone: Indicates if a passenger traveled without family/group
 
 ---
 ##  Exploratory Data Analysis (EDA)
