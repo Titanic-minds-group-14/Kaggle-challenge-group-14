@@ -65,3 +65,4 @@ Transported: Boolean indicating if the passenger was transported to another dime
   - Categorical features via **stacked bar charts**
   - KDE overlays (comparison of distributions for `Transported` = 0 vs 1)
   - Grouped bar plots of mean values by class
+  - grouped bar input values by class
