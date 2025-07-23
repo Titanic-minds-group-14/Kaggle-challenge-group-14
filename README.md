@@ -100,10 +100,10 @@ Target vs Categorical Features
 
  Modeling & Evaluation
  ------------------------------
-🔍 Model Selection
+ Model Selection
 To predict the likelihood of passengers being transported to another dimension, we trained and evaluated multiple classification algorithms, focusing on a balance between accuracy, interpretability, and robustness.
 
-🧠 Models Trained:
+ Models Trained:
 Random Forest Classifier
 
 Ensemble tree-based method
@@ -128,7 +128,7 @@ Fast to train and easy to interpret
 
 Useful as a benchmark
 
-All models were trained using stratified 5-fold cross-validation to ensure class balance and reduce variance in performance estimates.
+All models were trained using stratified 3-fold cross-validation to ensure class balance and reduce variance in performance estimates.
 
 
 
