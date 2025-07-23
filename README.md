@@ -79,4 +79,25 @@ KDE overlays comparing Transported classes
 
 Target vs Categorical Features
 
+🤖 Modeling & Evaluation
+Trained multiple models:
+
+Logistic Regression
+
+Random Forest Classifier
+
+XGBoost
+
+LightGBM
+
+Stacking Classifiers
+
+Evaluation Metrics:
+
+Accuracy, F1 Score, ROC-AUC
+
+Cross-validation with stratified K-fold
+
+Final Model Selection based on leaderboard performance and validation accuracy
+
 
