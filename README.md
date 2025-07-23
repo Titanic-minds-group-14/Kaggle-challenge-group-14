@@ -55,19 +55,19 @@ Transported - Whether the passenger was transported to another dimension. This i
 
 ##  Data Cleaning
 
-Handling Missing Values:
+1.Handling Missing Values:
 
 Median imputation for Age based on passenger group
 
 Zero-spending inference to populate CryoSleep
 
-Mode or most frequent values for categorical variables
+2.Mode or most frequent values for categorical variables
 
-Cabin Feature Engineering:
+3.Cabin Feature Engineering:
 
 Split the Cabin into Cabin_Deck, Cabin_Number, and Cabin_Side for better interpretability
 
-Additional Engineered Features:
+4.Additional Engineered Features:
 
 Total_Spending: Combined cost of all onboard services
 
@@ -89,6 +89,7 @@ Categorical Features
 Count plots for key columns like HomePlanet, Destination, Cabin_Deck, etc.
 
 ### 2. Bivariate Analysis
+
 Target vs Numerical Features
 
 Box and violin plots
@@ -101,14 +102,9 @@ Target vs Categorical Features
  ------------------------------
 Trained multiple models:
 
-Logistic Regression
-
 Random Forest Classifier
 
-XGBoost
-
-LightGBM
-
+Catboost Classifier 
 
 Evaluation Metrics:
 
