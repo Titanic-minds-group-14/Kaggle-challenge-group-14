@@ -37,13 +37,13 @@ RoomService, FoodCourt, ShoppingMall, Spa, VRDeck - Amount the passenger has bil
 Name - The first and last names of the passenger.
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 
-📌  Observations in Train Data:
+  Observations in Train Data:
 * There are total of 14 columns and 8693 rows in train data.
 * Train data contains 119378 observation with 2324 missing values.
 * All 12 feature columns have missing values in them with CryoSleep having highest missing values (217)
 * Transported is the target variable which is only available in the train dataset.
 
-* 📌  Observations in Test Data:
+  Observations in Test Data:
 * There are total of 13 columns and 4277 rows in test data.
 * Train data contains 54484 observation with 1117 missing values.
 * All 12 feature columns have missing values in them with FoodCourt having highest missing values (106)
@@ -102,7 +102,8 @@ KDE overlays comparing Transported classes
 
 Target vs Categorical Features
 
-🤖 Modeling & Evaluation
+ Modeling & Evaluation
+ ------------------------------
 Trained multiple models:
 
 Logistic Regression
@@ -113,14 +114,10 @@ XGBoost
 
 LightGBM
 
-Stacking Classifiers
 
 Evaluation Metrics:
 
 Accuracy, F1 Score, ROC-AUC
 
-Cross-validation with stratified K-fold
-
-Final Model Selection based on leaderboard performance and validation accuracy
 
 
