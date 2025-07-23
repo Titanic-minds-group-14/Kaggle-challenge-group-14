@@ -1,13 +1,7 @@
-# Spaceship Titanic - Predicting Dimensional Transport Kaggle-challenge-group-14
-
-Spaceship Titanic - Predicting Dimensional Transport
+# Spaceship Titanic - Predicting Dimensional Transport from Kaggle-challenge-group-14
 
 The Spaceship Titanic competition hosted on Kaggle tasks participants with predicting whether passengers aboard a futuristic interstellar cruise were transported to an alternate dimension after a spacetime anomaly.
 This project builds a robust machine learning pipeline that includes comprehensive EDA, feature engineering, model building, and evaluation using a combination of statistical methods and machine learning techniques.
-
-2.Install requirements:
-
-pip install -r requirements.txt
 
 ## Dataset Overview
 
@@ -25,7 +19,7 @@ Target Column:
 
 Transported: Boolean indicating if the passenger was transported to another dimension
 
-Column Descriptions : ¶
+Column Descriptions : 
 PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
 HomePlanet - The planet the passenger departed from, typically their planet of permanent residence.
 CryoSleep - Indicates whether the passenger elected to be put into suspended animation for the duration of the voyage. Passengers in cryosleep are confined to their cabins.
@@ -56,6 +50,7 @@ Transported - Whether the passenger was transported to another dimension. This i
 2. Perform comprehensive Exploratory Data Analysis (EDA).
 3. Engineer meaningful features.
 4. Prepare data for modeling (splitting, encoding, scaling).
+5. Model train and evaluation 
 ---
 
 ##  Data Cleaning
