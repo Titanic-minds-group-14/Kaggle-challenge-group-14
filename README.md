@@ -21,13 +21,19 @@ Missing values exist across most columns and are handled through imputation and 
   
 ##  Project Overview
 
-###  Goals:
-1. Clean and preprocess the raw data.
-2. Perform comprehensive Exploratory Data Analysis (EDA).
-3. Engineer meaningful features.
-4. Prepare data for modeling (splitting, encoding, scaling).
-5. Model train and evaluation 
----
+### Project Objectives
+
+Clean and preprocess the dataset.
+
+Perform thorough exploratory data analysis (EDA).
+
+Engineer new features for improved signal.
+
+Train and tune multiple classification models.
+
+Evaluate model performance and select the best performing model.
+
+Generate predictions for the test set.
 
 ##  Data Cleaning
 
