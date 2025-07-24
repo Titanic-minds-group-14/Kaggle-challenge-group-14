@@ -33,16 +33,16 @@ Generate predictions for the test set.
 
 ##  Data Cleaning
 
-🧹 Data Cleaning & Feature Engineering
-🔧 Missing Value Handling
+## Data Cleaning & Feature Engineering
+ # Missing Value Handling
 Numerical Imputation:
 Age imputed using group-wise medians.
 Spending columns (RoomService, FoodCourt, etc.) filled with 0 if CryoSleep is True.
 
-Categorical Imputation:
+# Categorical Imputation:
 Most frequent value used for columns like HomePlanet, VIP, and Destination.
 
-🏠 Cabin Feature Engineering
+# Cabin Feature Engineering
 Cabin split into:
 
 Cabin_Deck (e.g., A, B, C…)
@@ -51,12 +51,10 @@ Cabin_Number (numeric ID)
 
 Cabin_Side (Port or Starboard)
 
-🧪 New Features
+# New Features
 Total_Spending: Sum of all spending features
 
 Is_Alone: Indicates if a passenger traveled alone (based on group ID)
-
-
 
 ---
 ##  Exploratory Data Analysis (EDA)
