@@ -49,7 +49,7 @@ Cabin_Number (numeric ID)
 
 Cabin_Side (Port or Starboard)
 
-# New Features
+## New Features
 
 Total_Spending: Sum of all spending features
 
