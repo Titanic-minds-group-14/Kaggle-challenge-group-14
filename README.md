@@ -100,35 +100,30 @@ Target vs Categorical Features
 
  Modeling & Evaluation
  ------------------------------
- Model Selection
-To predict the likelihood of passengers being transported to another dimension, we trained and evaluated multiple classification algorithms, focusing on a balance between accuracy, interpretability, and robustness.
+ 
+Models Used:
+✅ Random Forest Classifier
+Tree-based ensemble model
 
- Models Trained:
-Random Forest Classifier
-
-Ensemble tree-based method
-
-Robust to overfitting, handles mixed feature types well
+Handles mixed types well and robust to overfitting
 
 Feature importance used for interpretability
 
-CatBoost Classifier
+✅ CatBoost Classifier
+Gradient Boosted Decision Trees optimized for categorical features
 
-Gradient boosting on decision trees optimized for categorical features
+Efficient with missing values and encoding
 
-Excellent handling of missing values and label encoding
+Best performer in validation (F1-score)
 
-Outperformed other models in validation F1-score
-
-Logistic Regression
-
-Linear baseline model
+✅ Logistic Regression
+Linear model used as a baseline
 
 Fast to train and easy to interpret
 
-Useful as a benchmark
+Helped evaluate added value of more complex models
 
-All models were trained using stratified 3-fold cross-validation to ensure class balance and reduce variance in performance estimates.
+
 
 
 
