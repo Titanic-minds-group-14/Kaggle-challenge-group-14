@@ -68,8 +68,7 @@ Categorical vs Target: Bar plots showing Transported rate across CryoSleep, Home
 Numerical vs Target: KDE and boxplots of Age, Total_Spending, etc., by Transported status.
 
 
- Modeling & Evaluation
- ------------------------------
+## Modeling & Evaluation
  
 Models Used:
 ## Random Forest Classifier
