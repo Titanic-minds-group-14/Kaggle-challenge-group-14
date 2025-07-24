@@ -4,6 +4,19 @@ The Spaceship Titanic competition hosted on Kaggle tasks participants with predi
 This project builds a robust machine learning pipeline that includes comprehensive EDA, feature engineering, model building, and evaluation using a combination of statistical methods and machine learning techniques.
 
 ## Dataset Overview
+The dataset includes demographic, travel, and spending data for passengers aboard the Spaceship Titanic.
+
+Key Features:
+
+Categorical: HomePlanet, CryoSleep, Cabin, Destination, VIP
+
+Numerical: Age, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
+
+Target Variable: Transported (Boolean – whether the passenger was transported)
+
+Train Set: 8693 rows × 14 columns
+Test Set: 4277 rows × 13 columns
+Missing values exist across most columns and are handled through imputation and inference.
 
   
 ##  Project Overview
