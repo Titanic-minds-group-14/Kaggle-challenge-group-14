@@ -102,21 +102,21 @@ Target vs Categorical Features
  ------------------------------
  
 Models Used:
-✅ Random Forest Classifier
+ Random Forest Classifier
 Tree-based ensemble model
 
 Handles mixed types well and robust to overfitting
 
 Feature importance used for interpretability
 
-✅ CatBoost Classifier
+ CatBoost Classifier
 Gradient Boosted Decision Trees optimized for categorical features
 
 Efficient with missing values and encoding
 
 Best performer in validation (F1-score)
 
-✅ Logistic Regression
+ Logistic Regression
 Linear model used as a baseline
 
 Fast to train and easy to interpret
