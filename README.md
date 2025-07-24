@@ -31,8 +31,6 @@ Evaluate model performance and select the best performing model.
 
 Generate predictions for the test set.
 
-##  Data Cleaning
-
 ## Data Cleaning & Feature Engineering
  # Missing Value Handling
 Numerical Imputation:
@@ -52,11 +50,11 @@ Cabin_Number (numeric ID)
 Cabin_Side (Port or Starboard)
 
 # New Features
+
 Total_Spending: Sum of all spending features
 
 Is_Alone: Indicates if a passenger traveled alone (based on group ID)
 
----
 ##  Exploratory Data Analysis (EDA)
 
 Univariate Analysis
@@ -89,6 +87,7 @@ Efficient with missing values and encoding
 Best performer in validation (F1-score)
 
 ## Logistic Regression
+
 Linear model used as a baseline
 
 Fast to train and easy to interpret
