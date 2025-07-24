@@ -5,31 +5,6 @@ This project builds a robust machine learning pipeline that includes comprehensi
 
 ## Dataset Overview
 
-The dataset contains personal and spending data for thousands of passengers. The key features include:
-
-Categorical Features:
-
-HomePlanet, CryoSleep, Cabin, Destination, VIP
-
-Numerical Features:
-
-Age, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
-
-Target Column:
-
-Transported: Boolean indicating if the passenger was transported to another dimension
-
-  Observations in Train Data:
-* There are total of 14 columns and 8693 rows in train data.
-* Train data contains 119378 observation with 2324 missing values.
-* All 12 feature columns have missing values in them with CryoSleep having highest missing values (217)
-* Transported is the target variable which is only available in the train dataset.
-
-  Observations in Test Data:
-* There are total of 13 columns and 4277 rows in test data.
-* Train data contains 54484 observation with 1117 missing values.
-* All 12 feature columns have missing values in them with FoodCourt having highest missing values (106)
-
   
 ##  Project Overview
 
@@ -79,26 +54,40 @@ Numerical vs Target: KDE and boxplots of Age, Total_Spending, etc., by Transport
  ------------------------------
  
 Models Used:
- Random Forest Classifier
+## Random Forest Classifier
 Tree-based ensemble model
 
 Handles mixed types well and robust to overfitting
 
 Feature importance used for interpretability
 
- CatBoost Classifier
+## CatBoost Classifier
 Gradient Boosted Decision Trees optimized for categorical features
 
 Efficient with missing values and encoding
 
 Best performer in validation (F1-score)
 
- Logistic Regression
+## Logistic Regression
 Linear model used as a baseline
 
 Fast to train and easy to interpret
 
 Helped evaluate added value of more complex models
+
+## Model Metrics & Plots
+
+Accuracy, Precision, Recall, F1-score
+
+ROC Curves for each classifier
+
+Confusion Matrices to visualize classification errors
+
+Precision-Recall Curves for imbalance analysis
+
+Feature Importance Plots for interpretability
+
+
 
 
 
