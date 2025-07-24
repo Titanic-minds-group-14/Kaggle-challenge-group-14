@@ -95,15 +95,15 @@ Helped evaluate added value of more complex models
 
 ## Model Metrics & Plots
 
-Accuracy, Precision, Recall, F1-score
+Evaluation Metrics:
+We used multiple metrics to assess model performance:
 
-ROC Curves for each classifier
+Accuracy: Percentage of correct predictions over total samples
 
-Confusion Matrices to visualize classification errors
+F1 Score: Harmonic mean of precision and recall, especially valuable in the presence of class imbalance
 
-Precision-Recall Curves for imbalance analysis
+ROC-AUC: Measures how well the model distinguishes between classes across thresholds
 
-Feature Importance Plots for interpretability
 
 ## Libraries Used
 pandas, numpy, matplotlib, seaborn – data handling and visualization
