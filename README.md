@@ -106,6 +106,18 @@ Precision-Recall Curves for imbalance analysis
 
 Feature Importance Plots for interpretability
 
+## Libraries Used
+pandas, numpy, matplotlib, seaborn – data handling and visualization
+
+scikit-learn – model building, preprocessing, and evaluation
+
+catboost – optimized gradient boosting for categorical features
+
+## Conclusion
+Through effective preprocessing, feature engineering, and model selection, this project achieved high validation accuracy and robustness. CatBoostClassifier emerged as the top model due to its handling of categorical data and strong generalization.
+
+
+
 
 
 
