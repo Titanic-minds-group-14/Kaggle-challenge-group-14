@@ -1,127 +1,182 @@
-# Spaceship Titanic - Predicting Dimensional Transport from Kaggle-challenge-group-14
+# 🚀 Spaceship Titanic - Predicting Dimensional Transport
 
-The Spaceship Titanic competition on Kaggle challenges participants to predict whether a passenger was transported to an alternate dimension after a spacetime anomaly disrupted the voyage. This project builds an end-to-end machine learning pipeline including data preprocessing, exploratory data analysis (EDA), feature engineering, and model training and evaluation using various classification algorithms.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Kaggle-20BEFF?logo=kaggle)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Model](https://img.shields.io/badge/Model-CatBoost-blueviolet)
+![EDA](https://img.shields.io/badge/EDA-Seaborn%20%7C%20Matplotlib-yellow)
+![Team](https://img.shields.io/badge/Team-Group14-blue)
+![Framework](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Notebook](https://img.shields.io/badge/Notebook-Jupyter-F37626?logo=jupyter)
+![Visualization](https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-ff69b4)
+![Open Source](https://img.shields.io/badge/Open--Source-Yes-lightgrey)
 
-## Dataset Overview
-The dataset includes demographic, travel, and spending data for passengers aboard the Spaceship Titanic.
+---
 
-Key Features:
+## 📑 Table of Contents
 
-Categorical: HomePlanet, CryoSleep, Cabin, Destination, VIP
+- [🌌 Project Overview](#-project-overview)
+- [📊 Dataset Description](#-dataset-description)
+- [🎯 Objectives](#-objectives)
+- [🛠️ Data Preprocessing & Feature Engineering](#️-data-preprocessing--feature-engineering)
+- [🔍 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+- [🤖 Modeling & Evaluation](#-modeling--evaluation)
+- [📚 Libraries Used](#-libraries-used)
+- [🏆 Results & Conclusion](#-results--conclusion)
+- [👥 Meet the Team](#-meet-the-team)
+- [⚙️ How to Run](#️-how-to-run)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📜 License](#-license)
 
-Numerical: Age, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
+---
 
-Target Variable: Transported (Boolean – whether the passenger was transported)
+## 🌌 Project Overview
 
-Train Set: 8693 rows × 14 columns
-Test Set: 4277 rows × 13 columns
-Missing values exist across most columns and are handled through imputation and inference.
+The **Spaceship Titanic Kaggle competition** challenges participants to predict whether passengers were transported to another dimension after a **spacetime anomaly**. This academic project by **Group 14** demonstrates an end-to-end **machine learning pipeline**, including data cleaning, exploratory analysis, feature engineering, model building, and evaluation.
 
-### Project Objectives
+### 🔑 Key Components
 
-Clean and preprocess the dataset.
+- Data cleaning and preprocessing  
+- In-depth exploratory data analysis (EDA)  
+- Feature engineering for enhanced performance  
+- Training and tuning classification models  
+- Evaluation using robust metrics  
+- Submission-ready Kaggle predictions  
 
-Perform thorough exploratory data analysis (EDA).
+---
 
-Engineer new features for improved signal.
+## 📊 Dataset Description
 
-Train and tune multiple classification models.
+The dataset includes various details about the passengers aboard Spaceship Titanic.
 
-Evaluate model performance and select the best performing model.
+### ➕ Features
 
-Generate predictions for the test set.
+- **Categorical**: `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`  
+- **Numerical**: `Age`, `RoomService`, `FoodCourt`, `ShoppingMall`, `Spa`, `VRDeck`  
+- **Target**: `Transported` (Boolean)  
 
-## Data Cleaning & Feature Engineering
- # Missing Value Handling
-Numerical Imputation:
-Age imputed using group-wise medians.
-Spending columns (RoomService, FoodCourt, etc.) filled with 0 if CryoSleep is True.
+### 📏 Dataset Size
 
-# Categorical Imputation:
-Most frequent value used for columns like HomePlanet, VIP, and Destination.
+- **Training Set**: 8,693 rows × 14 columns  
+- **Test Set**: 4,277 rows × 13 columns  
 
-# Cabin Feature Engineering
-Cabin split into:
+> Missing values are handled through **imputation and inference** techniques.
 
-Cabin_Deck (e.g., A, B, C…)
+---
 
-Cabin_Number (numeric ID)
+## 🎯 Objectives
 
-Cabin_Side (Port or Starboard)
+- Clean and preprocess the dataset  
+- Perform EDA to uncover hidden patterns  
+- Engineer meaningful features  
+- Train multiple ML classifiers  
+- Evaluate models and select the best one  
+- Generate predictions for Kaggle submission  
 
-## New Features
+---
 
-Total_Spending: Sum of all spending features
+## 🛠️ Data Preprocessing & Feature Engineering
 
-Is_Alone: Indicates if a passenger traveled alone (based on group ID)
+### 🧼 Missing Value Handling
 
-##  Exploratory Data Analysis (EDA)
+- **Numerical Imputation**  
+  - `Age`: Group-wise median  
+  - Spending columns: Filled with `0` for passengers in CryoSleep  
 
-Univariate Analysis
-Numerical: Histograms and KDE plots of Age and Spending features to detect skew and outliers.
+- **Categorical Imputation**  
+  - `HomePlanet`, `VIP`, `Destination`: Most frequent value  
 
-Categorical: Count plots for features like HomePlanet, Destination, and Cabin_Deck.
+### 🏗️ Cabin Feature Engineering
 
-Bivariate Analysis
-Categorical vs Target: Bar plots showing Transported rate across CryoSleep, HomePlanet, etc.
+- `Cabin_Deck`: Extracted deck letter (A, B, C...)  
+- `Cabin_Number`: Numeric cabin ID  
+- `Cabin_Side`: Port or Starboard side  
 
-Numerical vs Target: KDE and boxplots of Age, Total_Spending, etc., by Transported status.
+### 🆕 New Features
 
+- `Total_Spending`: Sum of RoomService, FoodCourt, ShoppingMall, Spa, VRDeck  
+- `Is_Alone`: Boolean flag indicating solo travelers  
 
-## Modeling & Evaluation
- 
-Models Used:
-## Random Forest Classifier
-Tree-based ensemble model
+---
 
-Handles mixed types well and robust to overfitting
+## 🔍 Exploratory Data Analysis (EDA)
 
-Feature importance used for interpretability
+### 📈 Univariate Analysis
 
-## CatBoost Classifier
-Gradient Boosted Decision Trees optimized for categorical features
+- Histograms, KDE plots for `Age`, spending features  
+- Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`  
 
-Efficient with missing values and encoding
+### 📊 Bivariate Analysis
 
-Best performer in validation (F1-score)
+- Bar plots of `Transported` vs. `CryoSleep`, `HomePlanet`, etc.  
+- KDE and box plots for `Age`, `Total_Spending` by target variable  
 
-## Logistic Regression
+---
 
-Linear model used as a baseline
+## 🤖 Modeling & Evaluation
 
-Fast to train and easy to interpret
+### 🔍 Models Used
 
-Helped evaluate added value of more complex models
+- **Random Forest Classifier** 🌳  
+  - Tree-based ensemble  
+  - Handles mixed data  
+  - Feature importance
 
-## Model Metrics & Plots
+- **CatBoost Classifier** 🚀  
+  - Gradient boosting for categorical data  
+  - Efficient with missing values  
+  - **Best performer (F1-score)**
 
-Evaluation Metrics:
-We used multiple metrics to assess model performance:
+- **Logistic Regression** 📈  
+  - Simple, fast, interpretable  
+  - Used as a baseline  
 
-Accuracy: Percentage of correct predictions over total samples
+### 📏 Evaluation Metrics
 
-F1 Score: Harmonic mean of precision and recall, especially valuable in the presence of class imbalance
+- **Accuracy**  
+- **F1 Score** (for class imbalance)  
+- **ROC-AUC**  
 
-ROC-AUC: Measures how well the model distinguishes between classes across thresholds
+### 📊 Visualizations
 
+- Feature importance plots (CatBoost, Random Forest)  
+- ROC curves and confusion matrices  
 
-## Libraries Used
-pandas, numpy, matplotlib, seaborn – data handling and visualization
+---
 
-scikit-learn – model building, preprocessing, and evaluation
+## 📚 Libraries Used
 
-catboost – optimized gradient boosting for categorical features
+- **Data Handling & Visualization**: `pandas`, `numpy`, `matplotlib`, `seaborn`  
+- **Modeling & Evaluation**: `scikit-learn`, `catboost`  
 
-## Conclusion
-Through effective preprocessing, feature engineering, and model selection, this project achieved high validation accuracy and robustness. CatBoostClassifier emerged as the top model due to its handling of categorical data and strong generalization.
+---
 
+## 🏆 Results & Conclusion
 
+Group 14 successfully built a **robust ML pipeline**, achieving high accuracy with generalizability. The **CatBoost classifier** emerged as the **top-performing model**, thanks to its categorical handling and boosting mechanism. The project reflects teamwork, technical skills, and an academic focus on best practices.
 
+---
 
+## 👥 Meet the Team
 
+**Group 14 Members and Roles**:
 
+- **Prudhvi Vardhan & Praharsh** – Data Preprocessing  & Feature engineering
+- **Shilpa & Praveena** – Exploratory Data Analysis  
+- **Hari Prasad & Venkatesh** – Model Training & Tuning    
+- **Dileep & Swapnil** – Documentation & Visualization  
 
+---
 
+## ⚙️ How to Run
 
+```bash
+# Clone the repository
+git clone https://github.com/Titanic-minds-group-14/Kaggle-challenge-group-14-
 
+# Install required dependencies
+pip install -r requirements.txt
 
+# Run the main script
+python main.py
