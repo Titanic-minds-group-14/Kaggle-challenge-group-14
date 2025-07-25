@@ -1,4 +1,4 @@
-# 🚀 Spaceship Titanic - Predicting Dimensional Transport
+#  Spaceship Titanic - Predicting Dimensional Transport
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
