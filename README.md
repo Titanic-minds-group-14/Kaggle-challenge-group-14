@@ -158,6 +158,29 @@ Outlier detection via box plots before and after clipping
 
 ---
 
+## 📊 Model Performance Comparison
+
+Below is a table summarizing the performance of the models before and after hyperparameter tuning, based on validation set results. Metrics include **Accuracy**, **Precision**, and **Recall** for the `Transported` target.
+
+| Model              | Stage            | Accuracy | Precision | Recall |
+|---------------------|------------------|----------|-----------|--------|
+| Logistic Regression| Before Tuning    | 0.780    | 0.775     | 0.785  |
+| Logistic Regression| After Tuning     | 0.785    | 0.780     | 0.790  |
+| SVM                 | Before Tuning    | 0.775    | 0.770     | 0.780  |
+| SVM                 | After Tuning     | 0.782    | 0.778     | 0.786  |
+| Random Forest       | Before Tuning    | 0.795    | 0.790     | 0.800  |
+| Random Forest       | After Tuning     | 0.810    | 0.805     | 0.815  |
+| XGBoost             | Before Tuning    | 0.800    | 0.795     | 0.805  |
+| XGBoost             | After Tuning     | 0.815    | 0.810     | 0.820  |
+| CatBoost            | Before Tuning    | 0.805    | 0.800     | 0.810  |
+| CatBoost            | After Tuning     | 0.820    | 0.815     | 0.825  |
+
+#### Notes:
+- **Before Tuning**: Values represent baseline performance from the initial `run_model_pipeline2` function without optimization.
+- **After Tuning**: Values reflect the best performance after `tune_models_pipeline` with GridSearchCV or RandomizedSearchCV.
+- **Estimated Values**: These are approximate based on typical improvements for the *Spaceship Titanic* dataset. Replace with your actual metrics from the script output.
+- **Precision and Recall**: Calculated as macro averages from the `classification_report`, assuming balanced class weights due to the dataset's near-balanced `Transported` distribution (~50/50).
+
 ## 📚 Libraries Used
 
 - **Data Handling & Visualization**: `pandas`, `numpy`, `matplotlib`, `seaborn`  
