@@ -113,8 +113,8 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 📈 Univariate Analysis
 
-- Histograms, KDE plots for `Age`, spending features  
-- Count plots for `HomePlanet`, `Destination`, `Cabin_Deck`  
+- Histograms and KDE plots for Age, spending features, and Total_Spending
+- Count plots for HomePlanet, Destination, Cabin_Deck, and Side
 
 ### 📊 Bivariate Analysis
 
