@@ -131,6 +131,14 @@ Outlier detection via box plots before and after clipping
 
 ### 🔍 Models Used
 
+- **Logistic Regression** 📈
+  - Simple baseline model for comparison
+  - Offers interpretable coefficients
+    
+- **SVM**🌐
+  - Support Vector Machine with kernel options
+  - Effective for non-linear decision boundaries
+
 - **Random Forest Classifier** 🌳  
   - Tree-based ensemble  
   - Handles mixed data  
