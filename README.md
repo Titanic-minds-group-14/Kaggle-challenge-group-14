@@ -71,12 +71,12 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ## 🎯 Objectives
 
-- Clean and preprocess the dataset  
-- Perform EDA to uncover hidden patterns  
-- Engineer meaningful features  
-- Train multiple ML classifiers  
-- Evaluate models and select the best one  
-- Generate predictions for Kaggle submission  
+- Clean and preprocess the dataset, addressing missing values and outliers
+- Perform EDA to uncover hidden patterns and relationships
+- Engineer meaningful features to improve model performance
+- Train and tune multiple ML classifiers, including CatBoost, Random Forest, and Logistic Regression
+- Evaluate models using accuracy, F1-score, ROC-AUC, and interpretability tools like SHAP
+- Generate and submit predictions for the Kaggle competition
 
 ---
 
