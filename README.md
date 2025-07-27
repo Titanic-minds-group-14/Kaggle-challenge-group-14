@@ -213,6 +213,17 @@ Group 14 successfully built a **robust ML pipeline**, achieving high accuracy wi
 
 ---
 
+📝 Notes
+Ensure the Data folder contains train.csv and test.csv from the Kaggle competition or the provided GitHub URLs.
+For Google Colab, use the provided Colab link to run the notebook directly.
+The script generates a submission file (submission_Test.csv) and downloads it automatically in Colab.
+
+🙏 Acknowledgments
+Kaggle Community: For the Spaceship Titanic dataset and competition platform.
+Open-Source Libraries: scikit-learn, catboost, shap, and others for their robust tools.
+Titanic Minds Group 14: For collaboration and data hosting on GitHub.
+Instructors and Peers: For guidance and feedback throughout the project.
+
 ## ⚙️ How to Run
 
 ```bash
@@ -225,13 +236,4 @@ pip install -r requirements.txt
 # Run the main script
 python main.py
 
-📝 Notes
-Ensure the Data folder contains train.csv and test.csv from the Kaggle competition or the provided GitHub URLs.
-For Google Colab, use the provided Colab link to run the notebook directly.
-The script generates a submission file (submission_Test.csv) and downloads it automatically in Colab.
 
-🙏 Acknowledgments
-Kaggle Community: For the Spaceship Titanic dataset and competition platform.
-Open-Source Libraries: scikit-learn, catboost, shap, and others for their robust tools.
-Titanic Minds Group 14: For collaboration and data hosting on GitHub.
-Instructors and Peers: For guidance and feedback throughout the project.
