@@ -222,7 +222,6 @@ The script generates a submission file (submission_Test.csv) and downloads it au
 Kaggle Community: For the Spaceship Titanic dataset and competition platform.
 Open-Source Libraries: scikit-learn, catboost, shap, and others for their robust tools.
 Titanic Minds Group 14: For collaboration and data hosting on GitHub.
-Instructors and Peers: For guidance and feedback throughout the project.
 
 ## ⚙️ How to Run
 
