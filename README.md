@@ -114,9 +114,9 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 📊 Bivariate Analysis
 
-- Bar plots of Transported vs. CryoSleep, HomePlanet, Destination, VIP, Deck, and Side
-- Box plots and violin plots for Age, Total_Spending, and other numerical features by Transported
-- Correlation heatmap to identify relationships between numerical features and the target
+ Bar plots of Transported vs. CryoSleep, HomePlanet, Destination, VIP, Deck, and Side
+ Box plots and violin plots for Age, Total_Spending, and other numerical features by Transported
+ Correlation heatmap to identify relationships between numerical features and the target
   
 ### 📊 Visualizations
 Interactive plots generated using matplotlib, seaborn, and plotly to explore distributions and relationships
@@ -128,8 +128,8 @@ Outlier detection via box plots before and after clipping
 ### 🔍 Models Used
 
 - **Logistic Regression** 📈
-  - Simple baseline model for comparison
-  - Offers interpretable coefficients
+   Simple baseline model for comparison
+   Offers interpretable coefficients
     
 - **SVM**🌐
   - Support Vector Machine with kernel options
