@@ -52,27 +52,27 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### ➕ Features
 
-- **Categorical**: `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`  
-- **Numerical**: `Age`, `RoomService`, `FoodCourt`, `ShoppingMall`, `Spa`, `VRDeck`  
-- **Target**: `Transported` (Boolean)  
+ **Categorical**: `HomePlanet`, `CryoSleep`, `Cabin`, `Destination`, `VIP`  
+ **Numerical**: `Age`, `RoomService`, `FoodCourt`, `ShoppingMall`, `Spa`, `VRDeck`  
+ **Target**: `Transported` (Boolean)  
 
 ### 📏 Dataset Size
 
-- **Training Set**: 8,693 rows × 14 columns  
-- **Test Set**: 4,277 rows × 13 columns  
+ **Training Set**: 8,693 rows × 14 columns  
+ **Test Set**: 4,277 rows × 13 columns  
 
-> Missing values are handled through **imputation and inference** techniques.
+ Missing values are handled through **imputation and inference** techniques.
 
 ---
 
 ## 🎯 Objectives
 
-- Clean and preprocess the dataset, addressing missing values and outliers
-- Perform EDA to uncover hidden patterns and relationships
-- Engineer meaningful features to improve model performance
-- Train and tune multiple ML classifiers, including CatBoost, Random Forest, and Logistic Regression
-- Evaluate models using accuracy, F1-score, ROC-AUC, and interpretability tools like SHAP
-- Generate and submit predictions for the Kaggle competition
+ Clean and preprocess the dataset, addressing missing values and outliers
+ Perform EDA to uncover hidden patterns and relationships
+ Engineer meaningful features to improve model performance
+ Train and tune multiple ML classifiers, including CatBoost, Random Forest, and Logistic Regression
+ Evaluate models using accuracy, F1-score, ROC-AUC, and interpretability tools like SHAP
+ Generate and submit predictions for the Kaggle competition
 
 ---
 
