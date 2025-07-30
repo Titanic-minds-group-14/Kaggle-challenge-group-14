@@ -14,10 +14,6 @@
 
 ---
 
-Collab link: 
-
----
-
 ## 📑 Table of Contents
 
 - [🌌 Project Overview](#-project-overview)
