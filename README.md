@@ -37,12 +37,12 @@ The **Spaceship Titanic Kaggle competition** challenges participants to predict 
 
 ### 🔑 Key Components
 
-- Data cleaning and preprocessing  
-- In-depth exploratory data analysis (EDA)  
-- Feature engineering for enhanced performance  
-- Training and tuning classification models  
-- Evaluation using robust metrics  
-- Submission-ready Kaggle predictions  
+ Data cleaning and preprocessing  
+ In-depth exploratory data analysis (EDA)  
+ Feature engineering for enhanced performance  
+ Training and tuning classification models  
+ Evaluation using robust metrics  
+ Submission-ready Kaggle predictions  
 
 ---
 
@@ -95,13 +95,13 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 🆕 New Features
 
-- Total_Spending: Sum of RoomService, FoodCourt, ShoppingMall, Spa, and VRDeck
-- Is_Alone: Boolean flag indicating solo travelers based on GroupSize
-- GroupId and PersonNumber: Extracted from PassengerId
-- GroupSize: Count of passengers per group
-- spending type: Categorized as 'No Expense', 'Low Expense', 'Medium Expense', or 'High Expense' based on Total_Spending
-- Age_Group: Binned Age into groups (e.g., 'Age_0-12', 'Age_19-25')
-- no spending: Binary flag for zero total spending
+ Total_Spending: Sum of RoomService, FoodCourt, ShoppingMall, Spa, and VRDeck
+ Is_Alone: Boolean flag indicating solo travelers based on GroupSize
+ GroupId and PersonNumber: Extracted from PassengerId
+ GroupSize: Count of passengers per group
+ spending type: Categorized as 'No Expense', 'Low Expense', 'Medium Expense', or 'High Expense' based on Total_Spending
+ Age_Group: Binned Age into groups (e.g., 'Age_0-12', 'Age_19-25')
+ no spending: Binary flag for zero total spending
 
 ---
 
@@ -109,8 +109,8 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 📈 Univariate Analysis
 
-- Histograms and KDE plots for Age, spending features, and Total_Spending
-- Count plots for HomePlanet, Destination, Cabin_Deck, and Side
+ Histograms and KDE plots for Age, spending features, and Total_Spending
+ Count plots for HomePlanet, Destination, Cabin_Deck, and Side
 
 ### 📊 Bivariate Analysis
 
