@@ -89,7 +89,7 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 🏗️ Cabin Feature Engineering
 
- `Cabin_Deck`: Extracted deck letter (A, B, C...)  
+ `Cabin_Deck`: Extracted deck letter (A, B, C..)  
  `Cabin_Number`: Numeric cabin ID  
  `Cabin_Side`: Port or Starboard side  
 
