@@ -168,16 +168,16 @@ Below is a table summarizing the performance of the models before and after hype
 
 | Model              | Stage            | Accuracy | Precision | Recall |
 |---------------------|------------------|----------|-----------|--------|
-| Logistic Regression| Before Tuning    | 0.780    | 0.775     | 0.785  |
-| Logistic Regression| After Tuning     | 0.785    | 0.780     | 0.790  |
+| Logistic Regression| Before Tuning     |0.780     | 0.80      | 0.76   |
+| Logistic Regression| After Tuning      |0.785     | 0.780     | 0.790  |
 | SVM                 | Before Tuning    | 0.775    | 0.770     | 0.780  |
 | SVM                 | After Tuning     | 0.782    | 0.778     | 0.786  |
 | Random Forest       | Before Tuning    | 0.795    | 0.790     | 0.800  |
 | Random Forest       | After Tuning     | 0.810    | 0.805     | 0.815  |
 | XGBoost             | Before Tuning    | 0.800    | 0.795     | 0.805  |
-| XGBoost             | After Tuning     | 0.815    | 0.810     | 0.820  |
-| CatBoost            | Before Tuning    | 0.805    | 0.800     | 0.810  |
-| CatBoost            | After Tuning     | 0.820    | 0.815     | 0.825  |
+| XGBoost             | After Tuning     | 0.814    | 0.810     | 0.820  |
+| CatBoost            | Before Tuning    | 0.809    | 0.800     | 0.810  |
+| CatBoost            | After Tuning     | 0.809    | 0.815     | 0.825  |
 
 #### Notes:
 - **Before Tuning**: Values represent baseline performance from the initial `run_model_pipeline2` function without optimization.
