@@ -145,7 +145,7 @@ Outlier detection via box plots before and after clipping
   - Efficient with missing values  
   - **Best performer (F1-score)**
 
-- **Logistic Regression** 📈  
+- **XG Boost** 📈  
   - Simple, fast, interpretable  
   - Used as a baseline  
 
@@ -194,7 +194,7 @@ Below is a table summarizing the performance of the models before and after hype
 
 ## 🏆 Results & Conclusion
 
-Group 14 successfully built a **robust ML pipeline**, achieving high accuracy with generalizability. The **CatBoost classifier** emerged as the **top-performing model**, thanks to its categorical handling and boosting mechanism. The project reflects teamwork, technical skills, and an academic focus on best practices.
+Group 14 successfully built a **robust ML pipeline**, achieving high accuracy with generalizability. The **CatBoost classifier** emerged as the **top-performing model**.  The project reflects teamwork, technical skills, and an academic focus on best practices.
 
 ---
 
