@@ -80,18 +80,18 @@ The dataset includes various details about the passengers aboard Spaceship Titan
 
 ### 🧼 Missing Value Handling
 
-- **Numerical Imputation**  
-  - `Age`: Group-wise median  
-  - Spending columns: Filled with `0` for passengers in CryoSleep  
+ **Numerical Imputation**  
+   `Age`: Group-wise median  
+   Spending columns: Filled with `0` for passengers in CryoSleep  
 
-- **Categorical Imputation**  
-  - `HomePlanet`, `VIP`, `Destination`: Most frequent value  
+ **Categorical Imputation**  
+   `HomePlanet`, `VIP`, `Destination`: Most frequent value  
 
 ### 🏗️ Cabin Feature Engineering
 
-- `Cabin_Deck`: Extracted deck letter (A, B, C...)  
-- `Cabin_Number`: Numeric cabin ID  
-- `Cabin_Side`: Port or Starboard side  
+ `Cabin_Deck`: Extracted deck letter (A, B, C...)  
+ `Cabin_Number`: Numeric cabin ID  
+ `Cabin_Side`: Port or Starboard side  
 
 ### 🆕 New Features
 
