@@ -214,7 +214,7 @@ Ensure the Data folder contains train.csv and test.csv from the Kaggle competiti
 For Google Colab, use the provided Colab link to run the notebook directly.
 The script generates a submission file (submission_Test.csv) and downloads it automatically in Colab.
 
-🙏 Acknowledgments
+ Acknowledgments
 Kaggle Community: For the Spaceship Titanic dataset and competition platform.
 Open-Source Libraries: scikit-learn, catboost, shap, and others for their robust tools.
 Titanic Minds Group 14: For collaboration and data hosting on GitHub.
